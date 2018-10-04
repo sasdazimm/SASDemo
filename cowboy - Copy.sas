@@ -12,6 +12,7 @@ run;
 title1 c=white f=swiss 'The Cowboy Hat';
 title2 h=2 angle=90 ' ';
 
+/* Make the Hat */
 proc g3d data=hat;
    plot y*x=z / ctop=yellow ctext=white;
 run; run;run;
