@@ -1,4 +1,4 @@
-/* Query cars. */
+/* Query class. */
 proc sql
-select * from sashelp.cars;
+select * from sashelp.class;
 run; 
