@@ -1,8 +1,8 @@
-fd/* adding comment*/
+/* adding comment... */
 
-/*This saas file creates a cowboy hat graphic using proc g3d and some math. */
+/*This SAS file creates a cowboy hat graphic using proc g3d and some math. */
 goptions cback=black colors=(white cyan magenta gold yellow);
-
+/* adding comment... */
 data hat;
    do x=-5 to 5 by .25;
       do y=-5 to 5 by .25;
