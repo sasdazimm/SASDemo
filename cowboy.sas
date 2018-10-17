@@ -1,8 +1,6 @@
-/* adding comment... */
-
-/*This SAS file creates a cowboy hat graphic using proc g3d and some math. */
+csfdafdsa
 goptions cback=black colors=(white cyan magenta gold yellow);
-/* adding comment... */
+    
 data hat;
    do x=-5 to 5 by .25;
       do y=-5 to 5 by .25;
@@ -11,9 +9,10 @@ data hat;
       end;
    end;
 run;
-title1 c=white f=swiss 'The Cowboy Hat';
+title1 c=white f=swisfdsafdsafdss 'The Cowboy Hat';
 title2 h=2 angle=90 ' ';
 
 proc g3d data=hat;
    plot y*x=z / ctop=yellow ctext=white;
-run; run;run;
+run; rfdsafdsafdsafdsaun;run;
+vdsdscxzCxzcxzcxz
