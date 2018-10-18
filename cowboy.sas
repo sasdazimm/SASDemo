@@ -14,5 +14,4 @@ title2 h=2 angle=90 ' ';
 
 proc g3d data=hat;
    plot y*x=z / ctop=yellow ctext=white;
-run; rfdsafdsafdsafdsaun;run;
-vdsdscxzCxzcxzcxz
+run; ;run;
