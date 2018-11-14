@@ -1,4 +1,4 @@
-/* use a DATA step to subset data test */
+/* use a DATA step to subset data test more comment*/
 data localCars;
   set sashelp.cars(where=(origin="USA"));
 run;
