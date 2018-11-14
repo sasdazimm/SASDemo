@@ -1,4 +1,4 @@
-/* use a DATA step to subset data test more comment*/
+/* use a DATA step to subset data test more comments*/
 data localCars;
   set sashelp.cars(where=(origin="USA"));
 run;
@@ -10,7 +10,7 @@ proc means data=localCars
 run;
 
 title "All USA cars, just MPG numbers";
-/* narrows the processing to just two variables */
+/* narrows the processing to just two variables more comment */
 proc means data=localCars
   mean stddev median mode n;
 var mpg_highway mpg_city;
@@ -27,11 +27,11 @@ run;
 
 title "All USA cars, just MPG numbers";
 title2 "by type";
-/* so let's sort the data first */
+/* so let's sort the data first another comment*/
 proc sort data=localCars
   out=sortcars;
 by type;
-proc means /*sortcars data is implied */
+proc means /*sortcars data is implied and antother commetn */
   mean stddev median mode n;
 var mpg_highway mpg_city;
 by type;
