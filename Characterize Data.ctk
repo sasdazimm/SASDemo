@@ -307,9 +307,11 @@ ods noproctitle;
    </CodeTemplate>
 
 
+
+
 <TemplateValues version="3.8">
 <![CDATA[
-{"chargrp":"CATEGORICAL VARIABLES","catTableTitle":"Frequencies for Categorical Variables","numcomment":"Analyze numeric variables","numgrp":"NUMERIC VARIABLES","catcomment":"Analyze categorical variables","sasOS":"Linux LIN X64 3.10.0-327.13.1.el7.x86_64","byVar":"","freqChart":"1","limit":"30","statTable":"1","minMaxDate":"1","datecomment":"Analyze date variables","customgrp":"CUSTOM CHARACTERIZATION","optionstab":"OPTIONS","levelsTable":"0","limitchk":"0","datelabel2":"Minimum date","dateVars":"","datelabel3":"Maximum date","categoryVars":"","rolesgrp":"ROLES","analysisVars":"","datelabel1":"Date variable","keepMissing":"0","autogrp":"AUTOMATIC CHARACTERIZATION","datatab":"DATA","histogram":"1","dategrp":"DATE VARIABLES","numTableTitle":"Descriptive Statistics for Numeric Variables","sasVersion":"9.46","freqTable":"1","datePlotTitle":"Date Frequencies","dataset":{"librarytable":"MAPS.AFGHANIS"},"seriesPlot":"0","datagrp":"DATA","dateTableTitle":"Minimum and Maximum Dates"}
+{"chargrp":"CATEGORICAL VARIABLES","catTableTitle":"Frequencies for Categorical Variables","numcomment":"Analyze numeric variables","numgrp":"NUMERIC VARIABLES","catcomment":"Analyze categorical variables","sasOS":"Linux LIN X64 3.10.0-327.13.1.el7.x86_64","byVar":"","freqChart":"1","limit":"30","statTable":"1","minMaxDate":"1","datecomment":"Analyze date variables","customgrp":"CUSTOM CHARACTERIZATION","optionstab":"OPTIONS","levelsTable":"0","limitchk":"0","datelabel2":"Minimum date","dateVars":"","datelabel3":"Maximum date","categoryVars":"","rolesgrp":"ROLES","analysisVars":"json:[{\"value\":\"LONG\",\"type\":\"Numeric\",\"length\":6,\"format\":\"\",\"informat\":\"\",\"className\":\"RoleObject\"}]","datelabel1":"Date variable","keepMissing":"0","autogrp":"AUTOMATIC CHARACTERIZATION","datatab":"DATA","histogram":"1","dategrp":"DATE VARIABLES","numTableTitle":"Descriptive Statistics for Numeric Variables","sasVersion":"9.46","freqTable":"1","datePlotTitle":"Date Frequencies","dataset":{"librarytable":"MAPS.AFGHANIS"},"seriesPlot":"0","datagrp":"DATA","dateTableTitle":"Minimum and Maximum Dates"}
 ]]>
 </TemplateValues>
 </Task>
