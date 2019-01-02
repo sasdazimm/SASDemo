@@ -1,7 +1,7 @@
 /* use a DATA step to subset data test more comments*/
 data localCars;
   set sashelp.cars(where=(origin="USA"));
-run;
+run;asdf
 
 title "All USA cars, all variables";
 /* produces a report of all numeric variables */
